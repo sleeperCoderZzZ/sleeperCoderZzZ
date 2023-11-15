@@ -34,7 +34,7 @@
 
 ###
 
-
+<img src="https://raw.githubusercontent.com/sleeperCoderZzZ/sleeperCoderZzZ/output/snake.svg" alt="Snake animation" />
 
 ###
 
