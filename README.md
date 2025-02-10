@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">My name is João Pedro Cabral Pavarin. i'm from Brazil. I work as a full-stack developer. using vue, vuetify, html5, css and javascript on the front-end. And in the Back-End I use node.js, neo4j, aws, docker.<br><br>- 🔭 I’m working as full-stack dev<br>- 📚 I'm currently learning python<br>- ⚡ In my free time I love learning about all types of technology</p>
+<p align="left">My name is João Pedro Cabral Pavarin. i'm from Brazil. I work as a back-end developer</p>
 
 ###
 
