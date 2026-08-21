@@ -67,7 +67,7 @@ joao_pedro:
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=sleeperCoderZzZ&theme=radical&no-frame=true&column=4&margin-w=10&margin-h=10" alt="Trophies" />
+  <img src="./trophy.svg" alt="Trophies" />
 </div>
 
 <br/>
@@ -84,6 +84,9 @@ joao_pedro:
 </a>
 
 </div>
+
+> 💡 *Nota: os cards acima usam badges em vez de preview de repositório — assim eles nunca ficam quebrados, mesmo se o nome do repo mudar.*
+
 <br/>
 
 ## 🤝 Vamos conversar?
