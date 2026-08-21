@@ -20,11 +20,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Gerar o SVG do troféu
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
-        with:
-          username: sleeperCoderZzZ
-          output_path: trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -fsSL --retry 3 --retry-all-errors \
+            "https://github-profile-trophy.vercel.app/?username=sleeperCoderZzZ&theme=default" \
+            -o trophy.svg
 
       - name: Commitar e enviar o trophy.svg atualizado
         run: |
