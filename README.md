@@ -85,6 +85,7 @@ joao_pedro:
 
 </div>
 
+> 💡 *Nota: os cards acima usam badges em vez de preview de repositório — assim eles nunca ficam quebrados, mesmo se o nome do repo mudar.*
 
 <br/>
 
