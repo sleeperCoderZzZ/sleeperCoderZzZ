@@ -20,12 +20,24 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Gerar o SVG do troféu
+        id: generate_trophy
         run: |
-          curl -fsSL --retry 3 --retry-all-errors \
+          status_code="$(curl -sSL --retry 3 --retry-all-errors \
             "https://github-profile-trophy.vercel.app/?username=sleeperCoderZzZ&theme=default" \
-            -o trophy.svg
+            -o trophy.svg \
+            -w "%{http_code}" || true)"
+
+          if [ "$status_code" != "200" ]; then
+            echo "::warning::Não foi possível gerar o trophy.svg (HTTP $status_code). Pulando atualização."
+            rm -f trophy.svg
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "updated=true" >> "$GITHUB_OUTPUT"
 
       - name: Commitar e enviar o trophy.svg atualizado
+        if: steps.generate_trophy.outputs.updated == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
