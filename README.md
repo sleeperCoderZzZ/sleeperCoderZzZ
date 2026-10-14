@@ -36,7 +36,7 @@ joao_pedro:
     - "Clean Architecture"
     - "Next.js"
   localizacao: "Santo Antônio da Platina, PR - Brasil"
-  status: "Disponível para trocar ideia sobre tech 💬"
+  status: "Disponível para trocar ideia sobre tech"
 ```
 
 <br/>
