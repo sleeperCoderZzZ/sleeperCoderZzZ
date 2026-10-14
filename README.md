@@ -34,7 +34,7 @@ joao_pedro:
   foco_atual:
     - "Padrões de Projeto (Design Patterns)"
     - "Clean Architecture"
-    - "Next.js"
+    - "angular"
   localizacao: "Santo Antônio da Platina, PR - Brasil"
   status: "Disponível para trocar ideia sobre tech"
 ```
